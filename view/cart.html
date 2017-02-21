@@ -1,0 +1,19 @@
+<div class="bar bar-header bar-positive">
+	<h2 class="title">
+		购物清单
+	</h2>
+</div>
+
+<ion-content class="has-header has-footer">
+	<div class="list" ng-show="allnum>0">
+	   <single-cart ng-repeat="item in list | filter: {type:'product'} track by $index" item="item" list="list" index="$index"></single-cart>
+	<div class="zj">总数量：{{allnum}}</div>
+	<div class="zj">总价：￥{{allprice/100}}</div>
+	<div class="jiesuan">去结算</div>
+	</div>
+
+	<div class="nullcart" ng-show="allnum==0">
+		您的购物车是空的。
+	</div>
+
+</ion-content>

@@ -1,0 +1,19 @@
+
+
+ <div class="item item-thumbnail-left" href="">
+	  <img src={{item.image}}>
+	  <h2>{{item.name}}</h2>
+	  <p>{{item.subtitle}}</p>
+	  <p class="price" style="color: {{item.non_vip_price_pro.price_down.color}}">
+		 <span class="price_name">	{{item.non_vip_price_pro.price_down.name}}￥
+		 </span>
+		 <b class="price_num">{{item.non_vip_price_pro.price_down.price/100}}</b>
+
+		<span class="changenum" ng-show="item.num>0">
+			<img src="../img/minus.png" alt="" ng-click="item.num=item.num-1">
+			<span class="num">{{item.num}}</span>
+			<img src="../img/add.png" alt="" ng-click="item.num=item.num+1">
+		</span>			 
+		 <img ng-show="item.num==0" class="carimg" src="../img/shopcar.png" alt="" ng-click="item.num=item.num+1">
+	  </p>
+</div>

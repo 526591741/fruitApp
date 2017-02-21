@@ -1,0 +1,243 @@
+[ng-cloak] {
+	display: none;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 ,body{
+    font-family: '微软雅黑';
+}
+.col{
+	text-align: center;
+	color:rgb(38, 38, 38);
+	line-height: 40px;
+}
+.banimg{
+	width:100%;
+}
+.price{
+	padding-top: 10px;
+}
+.list .ng-binding{
+	font-size: 15px;
+}
+.list .price_num{
+	font-size: 20px;
+	font-weight: 400;
+	letter-spacing: -1px;
+	display: inline-block;
+	height: 22px;
+}
+.city-list{
+	padding: 0 10px;
+}
+.list .price_name{
+	font-size: 12px
+}
+.carimg{
+	width: 49px;
+	position: absolute;
+	bottom: 0;
+	right: 0
+}
+.changenum{
+	position: absolute;
+	right: 8px;
+}
+.changenum img{
+	width:22px;
+}
+.num{
+	display: inline-block;
+	width: 25px;
+	height: 22px;
+    color: #4b4b4b;
+    line-height: 20px;
+    display: inline-block;
+    border: none;
+    border-radius: 0;
+    text-align: center;
+    vertical-align: top;
+    margin: 0;
+}
+a{
+	text-decoration: none;
+}
+.xia{
+	font-size: 14px;
+	margin-left: 6px;
+}
+.search{
+	float: right;
+	font-size: 25px;
+	margin-top: 8px;
+}
+.cartnum{
+	position: absolute;
+	top: 0px;
+	right: 12px;
+	background: red;
+	border-radius: 50%;
+	color: #fff;
+	height: 18px;
+	width: 18px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 18px;
+}
+.tab-item{
+	position: relative;
+}
+.nullcart{
+	line-height: 400px;
+	text-align: center;
+	background: url(http://statics.as.missfresh.cn/frontend/img/icon_buycar_empty_icon.png) no-repeat center 75px;
+	background-size:100px 100px;
+}
+.zj{
+	line-height: 40px;
+	border-bottom: 1px solid #eee;
+	text-align: left;
+	padding-left: 20px;
+}
+
+.button.button-full {
+	width: 90%;
+ 	margin: 0 auto;
+ 	margin-top: 40px;
+ 	margin-bottom: 10px;
+ 	border-radius: 5px;
+ 	min-height: 35px;
+ 	height: 35px;
+ 	line-height: 33px;
+}
+.longin-in{
+	border: none;
+}
+.login{
+	margin-top: 30px
+}
+.postcode{
+	border: 1px solid #ddd;
+}
+.item .ion-chevron-right{
+	font-size: 15px;
+	color: #bbb;
+}
+.left-ioc{
+	width: 20px;
+	position: relative;
+	top: 5px;
+}
+.mine-list{
+	padding: 11px;
+	padding-left: 18px
+}
+.mine-banner{
+	background: url('../img/my-bg.png') no-repeat center;
+	background-size: 100% 100%;
+	height: 200px;
+	margin-bottom: 10px;
+	padding-top: 80px;
+}
+.mine-login{
+	border:1px solid #ff4891;
+	color: #ff4891;
+	border-radius: 4px;
+	padding:0 8px;
+	line-height: 26px;
+	width: 80px;
+	margin: 0 auto;
+}
+.brand{
+	width: 100%;
+	padding: 10px;
+}
+.brand-title{
+	font-size: 18px;
+	text-align: center;
+	line-height: 36px;
+}
+.list-img{
+	width: 100%;
+	height: 150px;
+}
+.brand-name{
+	line-height: 32px;
+	font-size: 16px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	margin: 0;
+}
+.subtitle{
+	font-size: 14px;
+	color: #969696;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	margin: 0;
+	margin-bottom: 10px;
+}
+.duoren{
+	font-size: 20px;
+    color: #969696;
+    margin-right: 10px;
+}    
+.kaituan{
+	float: right;
+	background: #387ef5;
+	color: #fff;
+	display: inline-block;
+	padding: 4px 8px;
+	border-radius: 5px;
+}
+.brand-price{
+	float: right;
+	font-size: 23px;
+	vertical-align: bottom;
+	color: #ff4891;
+	margin-right: 18px;
+}
+.jiesuan{
+	width: 86%;
+	background: #387ef5;
+	color: #fff;
+	text-align: center;
+	line-height: 40px;
+	font-size: 16px;
+	margin-top: 17px;
+	border-radius: 7px;
+	margin: 0 auto;
+	margin-top: 17px;
+}
+.city-in{
+	font-size: 18px;
+	text-align: center;
+	margin-bottom: 20px;
+
+}
+.city-in i{
+	margin-left: 8px;
+}
+.list-inset .item.item-input input{
+	padding-right: 10px;
+}
+.citylist{
+	overflow: hidden;
+}
+.citylist li{
+	float: left;
+	padding: 10px;
+	font-size: 15px;
+}
+.areas{
+	font-size: 18px;
+	text-align: center;
+	padding: 10px 0
+}
+.searchp{
+	padding-right: 20px;
+}
+.searchp input{
+	background: #e6e6e6;
+	border-radius: 5px;
+	padding-left: 8px;
+}

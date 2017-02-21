@@ -1,0 +1,33 @@
+<div class="bar bar-header bar-positive">
+	<h2 class="title">
+		<a href="" ng-click="address.show()">{{addressShow}}<span class="	ion-chevron-down xia"></span>
+		</a>
+		<a href="" class="ion-ios-search-strong search" ng-click="search.show()"></a>
+	</h2>
+
+</div>
+<ion-content class="has-footer has-header">
+	<div class="row">
+	  <div class="col" style="flex: 1.5">新春特惠</div>
+	  <div class="col">水果</div>
+	  <div class="col">肉蛋</div>
+	  <div class="col">水产</div>
+	  <div class="col">蔬菜</div>
+	  <div class="col">速食</div> 
+	</div>
+	<ion-slide-box class="slide-wrapper">
+	  <ion-slide>
+	   <img class="banimg" src='../img/ban1.JPG' alt=""> 
+	   </ion-slide>
+	   <ion-slide>
+	   <img class="banimg" src="../img/ban2.JPG" alt=""> 
+	   </ion-slide>
+	   <ion-slide>
+	   <img class="banimg" src="../img/ban3.JPG" alt="">
+	  </ion-slide>
+	</ion-slide-box>
+
+	<div class="list" id="mylist">
+		<single-cart ng-repeat="item in homedata | filter: {type:'product'} track by $index" item="item"></single-cart>
+	</div>
+</ion-content>

@@ -1,0 +1,28 @@
+<div class="bar bar-header bar-positive">
+	<h2 class="title">
+		品牌团
+	</h2>
+</div>
+
+<ion-content class="has-footer has-header">
+	<div class="brand" ng-repeat="item in list">
+		<div ng-show="item.type=='group'" class="brand-title">—— {{item.name}} ——</div>
+		<div ng-show="item.type=='product'">
+			<img class="list-img" src="{{item.group_product_img}}" alt="">
+			<p class="brand-name">{{item.name}}</p>
+			<p class="subtitle">{{item.subtitle}}</p>
+			<p>
+				<span class="ion-person-stalker duoren"></span>	{{item.group_number_dec}}
+				<span class="kaituan">去开团</span>
+				<span class="brand-price">￥{{item.non_vip_price_pro.price_down.price/100}}</span>
+			</p>
+		</div>
+
+
+
+
+
+
+	</div>
+
+</ion-content>

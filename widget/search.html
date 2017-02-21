@@ -1,0 +1,25 @@
+<div class="modal" ng-controller="searchCtrl">
+	<div class="bar bar-header bar-positive">
+		 <button ng-click="hide()" class="button  button-clear ion-chevron-left"></button>
+		<h1 class="title">商品搜索</h1>
+	</div>
+
+	<ion-content class="has-header">
+		<label class="item item-input searchp">		  
+		  <i class="icon ion-search placeholder-icon"></i>
+		  <input type="text" ng-model="user.searchtx" placeholder="请输入搜索商品" ng-click="type='search'">
+		</label>
+
+		<div class="list" ng-repeat="sptit in product">
+
+		  <div class="item item-divider">
+		    {{sptit.trans_title}}
+		  </div>
+		  <a class="item" href="" ng-repeat="sp in sptit.active_item">
+		    {{sp.displayName}}
+		  </a>
+		</div>	
+	<div ng-if="product.length==0" class="item">搜索结果为空</div>
+	</ion-content>
+
+</div>
